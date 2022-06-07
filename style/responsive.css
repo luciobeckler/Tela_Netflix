@@ -1,0 +1,16 @@
+@media screen and (max-width:700px){
+      header{
+            display: flex;
+            flex-direction: column;
+      }
+
+      button{
+            margin-bottom: 5px;
+      }
+}
+
+@media screen and (min-width:100px){
+      .filme_destaque p{
+            width: 50%;
+      }
+}

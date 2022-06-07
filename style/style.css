@@ -1,0 +1,114 @@
+*{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+  }
+
+
+body{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Arial', Times, serif;
+      background-color: black;
+}
+
+header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: max-content;
+      margin-left: 20px;
+}
+
+.netflix_logo{
+      font-size: 40px;
+      margin-left: 5px;
+      color: red;
+      font-weight:1000;
+}
+
+.menu_principal{
+      margin-right: 5px;
+}
+
+.menu_principal a{
+      text-decoration: none;
+      color: lightgrey;
+      margin-right: 10px;
+      cursor: pointer;
+}
+
+.menu_principal a:hover{
+      color: white;
+}
+
+.destaque{
+      font-size: 16px;
+
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)100%), url(/imagens/capa-house.jpg);
+      height: 400px;
+      background-size: cover;
+
+
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: flex-start;
+}
+
+.filme_destaque{
+      max-width: 70%;
+      color: white;
+      margin: 20px;
+      max-height:70%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+}
+
+
+.filme_destaque h1{
+      font-size: 40px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-top: 37px;
+}
+
+.filme_destaque p{
+      margin-top: 10px;
+      margin-bottom: 40px;
+}
+
+.button{
+      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      padding: 15px 30px;
+      margin-right: 15px;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      font-size: 12px;
+}
+
+button:hover{
+      color: black;
+      background-color: white;
+}
+
+.button i{
+      margin-right: 10px;
+}
+
+.img_filme{
+      height: 100%;
+      width: 100%;
+      display: block;
+}
+
+.exibe_filmes{
+      margin-top: 5px;
+      background-color: rgba(0, 0, 0, 0)
+
+}

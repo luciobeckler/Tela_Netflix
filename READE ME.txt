@@ -1,0 +1,2 @@
+Por algum motivo a imagem do filme em destaque não carrega
+quando abrir-mos pelo index, mas carrega se abrir-mos pelo VSCode
